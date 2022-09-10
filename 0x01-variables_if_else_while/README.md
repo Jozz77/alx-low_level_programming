@@ -1,0 +1,1 @@
+Just the basics of Variables, if, else, while statements
