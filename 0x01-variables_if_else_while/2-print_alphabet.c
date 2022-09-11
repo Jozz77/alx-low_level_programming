@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 /* Get the character to be written */
 char y;
@@ -8,5 +8,5 @@ for (y = 'a'; y <= 'z'; y++)
 putchar(y);
 putchar('\n');
 
-return(0);
+return (0);
 }
