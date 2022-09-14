@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Description: 'prints the alphabet in lowercase, followed by a new line'
 *
@@ -14,5 +15,5 @@ char i;
 for (i = 'a'; i <= 'z'; i++)
 putchar(i);
 putchar('\n');
-return 0;
+return (0);
 }
