@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Finds the largest prime factors of the number 612852475143.
-*
+* main - Finds the largest prime factors of the number 612852475143
+*.
+* Return: Always 0.
 */
 
 int main(void)
