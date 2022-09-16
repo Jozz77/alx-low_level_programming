@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+* print_square - prints the size of a square using #.
+* @size: The size of the squares to be printed.
+*
+*/
+
+void print_triangle(int size)
+{
+int hsh, arr;
+if (size > 0)
+{
+for (hsh = 1; hsh < size; hsh++)
+{
+for (arr = size - hsh; arr < size; arr--)
+putchar('0');
+ for (arr = 0; arr < size; arr++)
+   putchar('#');
+if (hsh == size)
+continue;
+putchar('\n');
+}
+}
+putchar('\n');
+}
