@@ -8,19 +8,17 @@
 
 int main(void)
 {
-long prime = 612852475143, div;
-while (div < (prime / 2))
+unsigned long prime = 612852475143;
+unsigned long div = 2;
+while (div < prime)
 {
-if ((prime % 2) == 0)
+if (prime % div == 0)
 {
-prime /= 2;
-continue;
-}
-for (div = 3; div < (prime / 2); div += 2)
-{
-if ((prime % div) == 0)
 prime /= div;
+div = 2;
 }
+else
+div++;
 }
 printf("%ld\n", prime);
 return (0);
