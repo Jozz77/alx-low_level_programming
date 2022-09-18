@@ -2,15 +2,22 @@
 #include "main.h"
 
 /**
-* main - tests function that prints if integer is positive or negative.
+* main - causes an infinite loop
 *
-* Return: Always 0.
+* Return: 0
 */
 
 int main(void)
 {
-int n;
- n = 98;
- printf('n')
+int i;
+printf("Infinite loop incoming :(\n");
+i = 0;
+/**
+while (i < 10)
+{
+putchar(i);
+}
+*/
+printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
