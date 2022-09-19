@@ -4,6 +4,8 @@
 /**
 * _strlen - prints the lenght of a string.
 *
+* @s: the string
+*
 * Return: Lenght of the string.
 */
 
