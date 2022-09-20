@@ -2,30 +2,20 @@
 #include <stdio.h>
 
 /**
-* print_array - prints the number array.
+* _strcpy - copies a string
 *
-* @a: the pointer
-* @n: the integer
+* @src: character
+* @dest: character
 *
 * Return: the output string.
 */
 
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-int i;
-if (n > 0)
-{
-for (i = 0; n > i; i++)
-{
-if (i != n - 1)
-{
-printf("%d, ", a[i]);
-}
-else
-{
-printf("%d", a[i]);
-}
-}
-}
-putchar('\n');
+int i = -1;
+do {
+i++;
+dest[i] = src[i];
+} while (src[i] != '\0');
+return (dest);
 }
