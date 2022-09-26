@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strspn - return length of string that matches values consistently
- * @s: string to search
- * @accept: target for accept
- * Return: number of bytes matched
+ * _strpbrk - return pointer to byte in s that matches a byte in accept
+ * @s: given strin
+ * @accept: target matched character
+ * Return: pointer to index of string at first occurence
  */
 
 char *_strpbrk(char *s, char *accept)
