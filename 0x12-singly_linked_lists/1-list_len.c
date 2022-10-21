@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * list_len - prints length of list_t linked list
  * @h: linked list
